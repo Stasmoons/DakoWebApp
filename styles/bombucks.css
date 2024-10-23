@@ -22,6 +22,7 @@ body {
     flex-direction: column;
   
     margin-bottom: 25px;
+    margin-top: -3%;
 }
   
 .game-logo {
@@ -30,14 +31,16 @@ body {
     width: 50vmin;
 }
   
-  .bot-logo {
-    min-width: 120px;
-    max-width: 360px;
-    width: 90%;
-  }
+.bot-logo {
+    /* min-width: 120px;
+    max-width: 360px; */
+    /* width: 90%; */
+    width: 200px;
+}
   
   .bot-name {
-    display: flex;
+    display: none;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -54,6 +57,7 @@ body {
   }
   
   .tg-icon {
+    display: none;
     width: 9%;
   }
   

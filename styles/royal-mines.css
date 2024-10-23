@@ -7,9 +7,9 @@ body {
 
 .container {
     width: 100%;
-    height: 100%;
+    height: 92vh;
 
-    padding-top: 1vh;
+    /* padding-top: 1vh; */
     
     display: flex;
     align-items: center;
@@ -34,13 +34,14 @@ body {
 }
   
   .bot-logo {
-    min-width: 120px;
-    max-width: 360px;
-    width: 90%;
+    height: 10vh;
+    /* min-width: 120px; */
+    /* max-width: 360px; */
+    /* width: 90%; */
   }
   
   .bot-name {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -58,6 +59,7 @@ body {
   }
   
   .tg-icon {
+    display: none;
     width: 9%;
   }
   

@@ -24,19 +24,23 @@ body {
   flex-direction: column;
   
   margin-bottom: 15px;
+  margin-top: -6vh;
 }
   
 .mines-logo {
   min-width: 120px;
   max-width: 160px;
   width: 40vmin;
+  margin-bottom: -30px;
 }
   
 .bot-logo {
   min-width: 120px;
   max-width: 360px;
   width: 90%;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
+  /* width: 10vmax; */
+  height: 15vh;
 }
   
 .bot-name {
@@ -48,7 +52,8 @@ body {
 }
   
 .bot-name p {
-  display: inline;
+  display: none;
+  /* display: inline; */
   color: #59d2f4;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 1000;
@@ -59,6 +64,7 @@ body {
   
 .tg-icon {
   width: 9%;
+  display: none;
 }
   
   

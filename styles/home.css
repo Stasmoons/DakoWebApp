@@ -25,14 +25,14 @@ body {
 .bot-logo {
   width: 22%;
   margin: 0;
-  margin-top: -15px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 1.5vh;
 }
 
 .bot-title {
   width: 60%;
   margin: -14%;
-  margin-bottom: calc(-14% + 15px);
+  margin-bottom: calc(-14% + 2vh);
 }
 
   
