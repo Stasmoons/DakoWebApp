@@ -81,10 +81,10 @@ body {
   max-width: 500px;
   overflow: hidden;
 
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../assets/images/lucky-jet-display-bg.png");
+  background-image: url("../assets/images/lucky-jet-display-bg.png"); */
 
   display: flex;
   align-items: center;
