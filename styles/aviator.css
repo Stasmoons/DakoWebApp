@@ -72,14 +72,16 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+  margin-bottom: -20%;
 }
   
 .lucky-jet-display {
   position: relative;
-  width: 80%;
+  width: 140%;
   aspect-ratio: 1;
-  max-width: 500px;
+  /* max-width: ; */
   overflow: hidden;
+  margin: -30%;
 
   /* background-position: center;
   background-repeat: no-repeat;
@@ -129,11 +131,12 @@ body {
   gap: 20px;
   width: 100%;
   margin-bottom: 2%;
+  z-index: 10;
 }
   
 .game-button {
   background-color: #1e2261;
-  background: linear-gradient(#1e2261 0% 85%, #262c7d 96% 100%);
+  background: linear-gradient(#66011f 0% 85%, #9c0130 96% 100%);
   border: none;
   padding: 3% 5%;
   /* width: 60%; */
